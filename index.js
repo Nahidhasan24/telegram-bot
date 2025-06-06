@@ -85,7 +85,6 @@ bot.catch((err, ctx) => {
 // Start the Bot
 // ======================
 
-// Launch with error handling
 async function startBot() {
   try {
     console.log("🚀 Starting bot...");
