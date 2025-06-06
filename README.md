@@ -46,7 +46,7 @@ GROQ_API_KEY=your_groq_api_key
 ### Running the Bot
 
 ```bash
-npm start
+npm run dev
 ```
 
 ## 📋 Command Reference
