@@ -74,7 +74,7 @@ const result = await groq.chat.completions.create({
 ```
 ai-telegram-bot/
 ├── .env               # Environment variables
-├── bot.js             # Main bot logic
+├── index.js             # Main bot logic
 ├── package.json       # Dependencies
 └── README.md          # This file
 ```
@@ -94,7 +94,7 @@ ai-telegram-bot/
    - Check rate limits
 
 3. **Bot Not Responding**
-   - Verify bot is running (`npm start`)
+   - Verify bot is running (`npm run dev`)
    - Check logs for errors
 
 ## 📜 License
